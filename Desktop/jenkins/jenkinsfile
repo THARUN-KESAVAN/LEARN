@@ -5,7 +5,7 @@ pipeline {
             agent { docker { image 'ubuntu:latest' }
             steps {
                mkdir new 
-               echo " hello world" > new/touc.txt    
+               echo "hello world" > new/touc.txt    
            }
         }
     }
